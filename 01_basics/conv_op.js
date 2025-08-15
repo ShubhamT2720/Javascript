@@ -3,6 +3,10 @@
 // Number + String → String
 console.log(5 + "2"); // "52" (number converted to string)
 
+/*     + → can mean string concatenation or addition, so if there’s a string, it often becomes concatenation.
+       -, *, /, %, ** → are purely mathematical operators. If one operand is a string, JS converts it to a number first.
+*/
+
 // String - Number → Number
 console.log("10" - 2); // 8 (string converted to number)
 
