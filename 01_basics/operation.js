@@ -58,9 +58,9 @@ console.log("3" > 5); //false --->For comparison (>), JavaScript converts the st
 
 //console.log("3" = 5); //  Syntax Error ----> = is the assignment operator, not a comparison
 
-console.log("3" == 5); // false ----> == does loose equality (type coercion allowed), hence 3==5 is false
+console.log("3" == 3); // true ----> == does loose equality (type coercion allowed), hence 3==3 is true
 
-console.log("3" === 5); //false -----> === is strict equality — no type conversion, hence no comparison between string and number
+console.log("3" === 3); //false -----> === is strict equality — no type conversion, hence no comparison between string and number
 
 console.log("3" >= 5); // false for >=, JavaScript converts "3" → 3 (number), hence 3>=5 is false
 
